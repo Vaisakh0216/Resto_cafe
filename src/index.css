@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0px 200px; */
+  color: white;
+}
+.myOrderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  background-color: #18a046;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 8px;
+  border-radius: 50px;
+}
+.tabsContainer {
+  width: 100%;
+}
+
+.mainContainer {
+  padding: 0px 200px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .headerContainer {
+    margin: 20px;
+  }
+  .tabsContainer {
+    /* display: none; */
+  }
+  .mainContainer {
+    padding: 0px 0px !important;
+  }
+}
