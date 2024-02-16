@@ -18,9 +18,13 @@ const Counter = () => {
 
   return (
     <div className="counter">
-      <span onClick={() => count > 0 && remove()}>-</span>
+      <span style={{ cursor: "pointer" }} onClick={() => count > 0 && remove()}>
+        -
+      </span>
       <span>{count}</span>
-      <span onClick={() => add()}>+</span>
+      <span style={{ cursor: "pointer" }} onClick={() => add()}>
+        +
+      </span>
     </div>
   );
 };
